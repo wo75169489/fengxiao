@@ -1,0 +1,69 @@
+// Here you can add other styles
+html{
+  font-size: 10px;
+}
+body{
+  font-size: 12px;
+}
+
+a:focus{
+  outline: none;
+}
+
+.bottom-btn-box{
+  margin: 25px auto;
+  text-align: left;
+  .btn{
+    margin: 0 8px;
+    min-width: 120px;
+  }
+
+}
+
+.bottom-btn-box .btn:first-child{
+  margin-left: 0;
+}
+
+.article-page-list{
+  .row{
+    .col-sm-8{
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .col-sm-4{
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  .btn-primary{
+    min-width: 100px;
+  }
+}
+
+.app-header.navbar .nav-item {
+  margin-right: 20px!important;
+}
+
+.b-nav-dropdown .dropdown-item:focus{
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.dropdown-item i{
+  color: #333;
+}
+
+// reset element-ui
+.el-button--text:focus{
+  outline: none!important;
+}
+
+.el-table .cell{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+// 表格横向滚动条
+.el-table__body{
+  border-collapse: separate;
+}

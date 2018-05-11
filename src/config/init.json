@@ -1,0 +1,44 @@
+{
+    "prize_type": [
+        {
+            "text": 0,
+            "value": "全部"
+        },
+        {
+            "text": 1,
+            "value": "按时间"
+        },
+        {
+            "text": 2,
+            "value": "按人数"
+        },
+        {
+            "text": 3,
+            "value": "手动"
+        },
+        {
+            "text": 4,
+            "value": "现场"
+        }
+    ],
+    "prize_status": [
+        {
+            "text": 0,
+            "value": "全部"
+        },
+        {
+            "text": 1,
+            "value": "进行中"
+        },
+        {
+            "text": 2,
+            "value": "未开始"
+        },
+        {
+            "text": 3,
+            "value": "已结束"
+        }
+    ],
+    "http":"http://rap2api.taobao.org/app/mock/6526/GET/",
+    "httpPost":"http://rap2api.taobao.org/app/mock/6526/POST/"
+}

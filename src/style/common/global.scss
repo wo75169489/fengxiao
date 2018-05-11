@@ -1,0 +1,98 @@
+// 重置列表样式
+ol, ul, dl {
+  list-style: none;
+  padding: 0;
+}
+
+// 单图片上传
+.avatar-uploader .el-upload {
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  background: #f9f9f9;
+}
+.avatar-uploader .el-upload:hover {
+  border-color: #20a0ff;
+  i{
+    color: #4A8EF7;
+  }
+}
+.avatar-uploader-icon {
+  font-size: 14px;
+  color: #8c939d;
+  text-align: center;
+}
+.avatar {
+  width: 178px;
+  height: 178px;
+  display: block;
+}
+
+.upload-preview-box{
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fefefe;
+}
+
+.avatar-uploader-sm{
+  .el-upload{
+    border: 1px solid #d9d9d9;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    &:hover{
+      border-color: #20a0ff;
+    }
+  }
+
+  .avatar-uploader-icon{
+    font-size: 24px;
+  }
+  .avatar-uploader-icon, .upload-preview-box{
+    width: 100px!important;
+    height: 100px!important;
+    line-height: 100px!important;
+  }
+}
+
+// 编辑器高度设置
+.ql-container {
+  min-height: 500px;
+}
+// 在el-form下的工具条样式修正
+.el-form-item__content .ql-toolbar {
+  line-height: 1.5;
+  font-size: 12px;
+}
+
+// 长条按钮
+.btn-long {
+  min-width: 150px;
+}
+
+// 全局容器
+.single-line-container {
+  display: inline-flex;
+}
+
+.flex-right {
+  justify-content: flex-end;
+}
+
+// 翻页组件
+.pagination-wrapper{
+  margin: 15px 0;
+  text-align: right;
+}
+
+// 表格搜索栏，右边栏
+.form-box{
+  float: right;
+  .input-item{
+    display: inline-block;
+    margin-left: 10px;
+  }
+}

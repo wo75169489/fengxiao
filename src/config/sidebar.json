@@ -1,0 +1,10 @@
+{
+  "nav_list": [
+    {
+      "name": "用户管理",
+      "icon": "icon-nav-index",
+      "url": "/index"
+    }
+    
+  ]
+}
